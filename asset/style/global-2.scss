@@ -1,0 +1,78 @@
+
+
+li{
+    list-style-type: none;
+    color: #FFFFFF;
+}
+a{
+    text-decoration:none;
+    color: inherit !important;
+}
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 100%;
+}
+#main{
+    width: 100%;
+    overflow-x: hidden;
+}
+.header-3{
+    .header-tel{
+        display: flex;
+        height: 50px;
+        border-radius: 50px;
+        background-color: inherit;
+        color: #efef23;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-2-menuDesktop{
+        a{
+            display: flex;
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+            text-transform: uppercase;
+            font-size: 20px;
+            
+        }
+    }
+}
+.ME-BG{
+    background-image: url(../img/ME_preview_rev_1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100% center;
+    height: 400px;
+}
+.btn {
+    padding: 12px 25px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #ffffff;
+    background:#212529;
+    border: 2px solid transparent;
+    border-radius: 0;
+    box-shadow: inset 0 0 0 50px #212529;
+    transition: ease-out 0.3s;
+
+&:hover {
+    color: #efef23;
+    background: transparent;
+    box-shadow: inset 0 0 0 0 #efef23;
+    border-color: #efef23;
+}
+}
+.GeneratedMarquee {
+    font-family:Arial, sans-serif;
+    font-size:2em;
+    font-variant:small-caps;
+    line-height:1.3em;
+    color:#FFFFFF;
+    background-color:#212529;
+    padding:1.5rem;}
+
+ 
+
